@@ -1089,15 +1089,15 @@ c.fonts.default_size = '16pt'
 
 ## Font used in the statusbar.
 ## Type: Font
-# c.fonts.statusbar = 'default_size default_family'
+c.fonts.statusbar = '11pt default_family'
 
 ## Font used for selected tabs.
 ## Type: Font
-# c.fonts.tabs.selected = 'default_size default_family'
+c.fonts.tabs.selected = '11pt default_family'
 
 ## Font used for unselected tabs.
 ## Type: Font
-# c.fonts.tabs.unselected = 'default_size default_family'
+c.fonts.tabs.unselected = '11pt default_family'
 
 ## Font family for cursive fonts.
 ## Type: FontFamily
@@ -1535,7 +1535,7 @@ c.fonts.default_size = '16pt'
 ##   - always: Always show the statusbar.
 ##   - never: Always hide the statusbar.
 ##   - in-mode: Show the statusbar when in modes other than normal mode.
-c.statusbar.show = 'never'
+c.statusbar.show = 'always'
 
 ## List of widgets displayed in the statusbar.
 ## Type: List of String
@@ -1694,12 +1694,12 @@ c.tabs.last_close = 'close'
 ##   - never: Always hide the tab bar.
 ##   - multiple: Hide the tab bar if only one tab is open.
 ##   - switching: Show the tab bar when switching tabs.
-c.tabs.show = 'switching'
+c.tabs.show = 'always'
 
 ## Duration (in milliseconds) to show the tab bar before hiding it when
 ## tabs.show is set to 'switching'.
 ## Type: Int
-c.tabs.show_switching_delay = 1000
+# c.tabs.show_switching_delay = 1000
 
 ## Open a new window for every tab.
 ## Type: Bool
